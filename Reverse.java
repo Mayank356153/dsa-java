@@ -1,4 +1,4 @@
-import java.io.*;
+
 import java.util.*;
 
 
@@ -12,6 +12,7 @@ public class Reverse {
         System.out.println("Enter number");
         for(int i=0;i<l;i++)
             arr[i]=sc.nextInt();
+        sc.close();
         int s=0;
         l--;
         while(s<l){

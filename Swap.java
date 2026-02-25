@@ -1,4 +1,3 @@
-import java.io.*;
 
 class Swap{
     public static void main(String args []){

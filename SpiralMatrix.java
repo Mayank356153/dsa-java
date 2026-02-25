@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class SpiralMatrix {
     public static void main(String args[]){
         Scanner sc =new Scanner(System.in);
@@ -9,6 +8,8 @@ public class SpiralMatrix {
         for (int i=0;i<m;i++)
             for (int j=0;j<n;j++)
                   arr[i][j]=sc.nextInt();
+
+        sc.close();
          for (int i=0;i<m;i++){
              for (int j=0;j<n;j++)
                      System.out.print(arr[i][j]+" ");
@@ -16,7 +17,7 @@ public class SpiralMatrix {
          }
                   
 
-        int turns=Math.ceilDiv(m, 2),sr=0,er=m-1,stc=0,ec=n-1;
+        int sr=0,er=m-1,stc=0,ec=n-1;
     
         while(sr<=er && stc<=ec){
             //top
@@ -37,7 +38,7 @@ public class SpiralMatrix {
             er--;
             stc++;
             ec--;
-            turns--;
+        
         }
     }
 }

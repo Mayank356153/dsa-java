@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 public class Transpose {
     public static void main(String args[]){
@@ -12,7 +11,7 @@ public class Transpose {
          for(int i=0;i<m;i++)
             for (int j=0;j<n;j++) arr[i][j]=sc.nextInt();
         
-        int newarr[][] =new int [n][m];
+        sc.close();
         System.out.println("Matrix");
         for(int i=0;i<m;i++)
             {
