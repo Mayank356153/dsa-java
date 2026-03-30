@@ -1,3 +1,4 @@
+package array;
 //brute - n3
 
 public class SubArray {
